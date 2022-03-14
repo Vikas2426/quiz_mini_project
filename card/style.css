@@ -1,0 +1,35 @@
+@import url("../global.css");
+
+#card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  height: 22rem;
+  width: 20rem;
+  border: 1px solid var(--dark-black);
+  margin: 10px;
+  position: relative;
+  background-color: var(--light-black);
+}
+
+.card-image {
+  height: 50%;
+  width: 100%;
+}
+
+.card-text {
+  text-align: justify;
+  padding: 10px;
+}
+
+.card > .close > .btn {
+  padding: 2px;
+  color: var(--lynx-white);
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 1rem 0.2rem var(--dark-black);
+}
