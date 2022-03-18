@@ -1,5 +1,9 @@
 @import url("../style.css");
 
+a {
+  color: var(--lynx-white);
+}
+
 .quiz-details {
   width: 100%;
   text-align: center;
@@ -19,4 +23,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.answer {
+  cursor: default;
+}
+
+.answer:hover {
+  box-shadow: none;
+}
+
+.wrong-answer {
+  background-color: var(--danger-light);
+}
+.right-answer {
+  background-color: var(--action-dark);
 }
