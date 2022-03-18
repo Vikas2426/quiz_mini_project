@@ -1,0 +1,17 @@
+@import url("../quiz/style.css");
+
+.result-container {
+  width: 100vw;
+  padding: 0.5rem;
+  margin: 5rem auto;
+}
+.final-answers-container {
+  margin: 5rem auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .result-container {
+    width: 50vw;
+    padding: 0;
+  }
+}
