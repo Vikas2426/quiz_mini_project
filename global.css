@@ -5,8 +5,8 @@
 }
 
 :root {
-  --light-black: rgba(62, 66, 70, 0.105);
-  --dark-black: rgb(14, 19, 31);
+  --light-black: #3e42461b;
+  --dark-black: #0e131f;
   --primary-light: #3b82f6;
   --primary: #4285f4;
   --primary-dark: #1d4ed8;
@@ -28,7 +28,7 @@
   --black-dark: #000000;
 
   --white: #ffffff;
-  --lynx-white: #f7f7f7;
+  --lynx-white: #dedddd;
 
   --violet-light: #8b5cf6;
   --violet: #7c3aed;
